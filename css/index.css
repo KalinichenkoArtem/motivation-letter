@@ -46,7 +46,6 @@ li {
 
 .contact-list {
   padding-left: 15px;
-  list-style-type: none;
 }
 
 svg {
@@ -60,17 +59,6 @@ svg {
   color: black;
 }
 
-.contact-list {
-  padding-left: 15px;
-  list-style-type: none;
-}
-
-.contact-item,
-.link-contact-item {
-  display: flex;
-  align-items: center;
-}
-
 .contact-item:nth-last-child(n + 2) {
   margin-bottom: 5px;
 }
@@ -79,8 +67,10 @@ svg {
   margin-top: 14px;
   font-size: 20px;
   font-weight: 700;
+  line-height: 30px;
 }
 
 .text {
   margin-top: 15px;
+  width: 500px;
 }
